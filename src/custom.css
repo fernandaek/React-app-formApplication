@@ -1,0 +1,129 @@
+body {
+background-color: #E5E5E5 !important
+}
+nav{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+}
+.wrapper {
+    display: flex !; 
+    width: 100%;
+    align-items: stretch;
+}
+#sidebar {
+    position: absolute;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background-color:  #5C6375;
+}
+.sidebar-header{
+    position: absolute;
+width: 97px;
+height: 29px;
+left: 25px;
+top: 21px;
+
+/* h3 */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+li > a {
+position: relative;
+width: 94px;
+height: 21px;
+left: 47px;
+top: 84px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.linkApp, .ApplicationComp > h1{
+position: relative;
+width: 94px;
+height: 21px;
+left: 47px;
+top: 84px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.container{
+    position: relative !important;
+    padding-right: 15px !important;
+    margin-right: auto !important;
+    margin-left: 28% !important;
+    width: 61% !important;
+}
+.card {
+    
+    margin-top: 5%;
+    margin-left: 10px !important;
+}
+.top > span{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+width: 444px;
+font-size: 1.3rem;
+line-height: 18px;
+text-align: center;
+
+/* Description */
+
+color: #7F7F7F;
+}
+.top{
+    margin-top: 5%;
+}
+
+.form-validation{
+    padding: 2em;
+    width: 40%;
+    border: solid 1px #ced4da;
+    border-radius: 2px;
+    background-color: white;
+    margin: auto;
+}
+label {
+    float: left;
+}
+.display-5{
+    font-family: Poppins;
+    font-size: 1.2rem;
+}
+
